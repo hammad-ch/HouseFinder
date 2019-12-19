@@ -17013,13 +17013,13 @@ h6 a:active, .h6 a:hover, .h6 a:focus, .h6 a:active {
   padding: 10px 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex; 
   list-style: none;
   overflow: hidden;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+  /* -ms-flex-flow: row wrap; */
+  /* flex-flow: row wrap; */
   text-align: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;

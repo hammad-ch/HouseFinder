@@ -41,31 +41,43 @@
                   <!-- content -->
                   <section id="content" class="container pEqual">
                     <div class="addProperty">
-                      <h1 class="fontNeuron">Add New Property</h1>
+                      <h1 class="fontNeuron">Add New Service</h1> 
                       <ol class="navSteps">
-                        <li class="current">
-                          <a href="add-step-01.html">
-                            <span class="text">Basic Info</span>
+                        <li >
+                          <a href="add-internetProvider-info.html">
+                            <span class="text">Internet Provider</span>
+                          </a>
+                        </li>
+                        <li >
+                            <a href="add-parking-info.html">
+                              <span class="text">Parking</span>
+                            </a>
+                          </li>
+
+                          <li class="current">
+                            <a href="add-cableOperator-info.html">
+                              <span class="text">Cable Operator</span>
+                            </a>
+                          </li>
+
+                        <li>
+                          <a href="add-schoolvan-info.html">
+                            <span class="text">School Van</span>
                           </a>
                         </li>
                         <li>
-                          <a href="add-step-02.html">
-                            <span class="text">Photos &amp; EPC</span>
+                          <a href="add-sweeper-info.html">
+                            <span class="text">Sweeper</span>
                           </a>
                         </li>
                         <li>
-                          <a href="add-step-03.html">
-                            <span class="text">Location</span>
+                          <a href="add-watchman-info.html">
+                            <span class="text">Watchman</span>
                           </a>
                         </li>
                         <li>
-                          <a href="add-step-04.html">
-                            <span class="text">Amenities and Services</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="add-step-05.html">
-                            <span class="text">Private Notes</span>
+                          <a href="add-housemaid-info.html">
+                            <span class="text">Housemaid</span>
                           </a>
                         </li>
                       </ol>
@@ -73,21 +85,19 @@
                         <form>
                           <header class="contentHead">
                             <h2 class="fontNeuron">Basic Info</h2>
-                            <!-- <div class="btnArea">
-                              <a href="add-step-02.html" class="btn btn-info">Next <i class="fi flaticon-arrows"></i></a>
-                            </div> -->
+                          
                           </header>
                           <div class="row">
                             <div class="col-xs-12">
                               <div class="form-group">
-                                <label for="itemN-15">Property Title*</label>
-                                <input type="text" class="form-control" placeholder="House" id="itemN-15">
+                                <label for="itemN-15">Service Title*</label>
+                                <input type="text" class="form-control" placeholder="Sunshine Cable network" id="itemN-15">
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-6">
                               <div class="form-group">
                                 <label for="itemN-16">Price</label>
-                                <input type="text" class="form-control" placeholder="$158" id="itemN-16">
+                                <input type="number" class="form-control" placeholder="500" min="0" max="9999" id="itemN-16">
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-6">
@@ -99,57 +109,14 @@
 								  </select>
                               </div>
                             </div>
+                        
                             <div class="col-xs-12 col-sm-4">
-                              <div class="form-group">
-                                <label for="itemN-18">Bedrooms</label>
-                                <input type="number" class="form-control" placeholder="5" min="0" max="9999" id="itemN-18">
+                                <div class="form-group">
+                                  <label for="itemN-18">Location</label>
+                                  <input type="text" class="form-control" placeholder="Rawalpindi cantt" id="itemN-18">
+                                </div>
                               </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-4">
-                              <div class="form-group">
-                                <label for="itemN-19">Bathrooms</label>
-                                <input type="number" class="form-control" placeholder="3" min="0" max="9999" id="itemN-19">
-                              </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-4">
-                              <div class="form-group">
-                                <label for="itemN-20">Garages</label>
-                                <input type="number" class="form-control" placeholder="8" min="0" max="9999" id="itemN-20">
-                              </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6">
-                              <div class="form-group">
-                                <label for="itemN-21">Area in length</label>
-                                <input type="number" class="form-control" placeholder="1500" id="itemN-21">
-                              </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6">
-                              <div class="form-group">
-                                <label for="itemN-22">Area in width</label>
-                                <input type="number" class="form-control" placeholder="1500" id="itemN-22">
-                              </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6">
-                              <div class="form-group">
-                                <label for="itemN-23">Property Type</label>
-                                <select data-placeholder="Select Option" class="chosen-select" id="itemN-23">
-                                  <option value="1">Flat</option>
-                                  <option value="2">Home</option>
-                                  <option value="2">Room</option>
-                                </select>
-                              </div>
-                            </div>
-                            <!-- <div class="col-xs-12 col-sm-6">
-                              <div class="form-group">
-                                <label for="itemN-24">Property Status</label>
-                                <select data-placeholder="Select Option" class="chosen-select" id="itemN-24">
-                                  <option value="1">All Areas</option>
-                                  <option value="2">All Areas</option>
-                                  <option value="2">All Areas</option>
-                                  <option value="2">All Areas</option>
-                                </select>
-                              </div>
-                            </div> -->
+
                             <div class="col-xs-12">
                               <div class="form-group">
                               <label for="itemN-25">Description</label>
